@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>..\..\..\MMU\Year 3\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PersonalTVShowOrganiser\bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,7 +45,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="TVShowObjects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\MMU\Year 3\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TVShowObjects\bin\Debug\TVShowObjects.dll</HintPath>
+      <HintPath>..\Dependencies\TVShowObjects.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
